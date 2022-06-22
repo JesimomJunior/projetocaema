@@ -175,7 +175,7 @@ def mostrar_menu():
            break
 def acessar_banco():
     global conexao
-    conexao = mysql.connector.connect(host='localhost',database='meusistema',user='root',password='123456')
+    conexao = mysql.connector.connect(host='meusistema.cxemn8yg51zh.us-east-1.rds.amazonaws.com',database='meusistema',user='root',password='caema#2022')
 def apagar_linha():
      acessar_banco()
 
@@ -263,14 +263,5 @@ while (opc != 0 ):
          exibir()
          apagar_apagar()
          os.system("pause")
- if opc == 0:
-    print("\n\nFECHANDO APLICAÇÃO\n.\n.\n.\n.")
-    os.system("pause")
-    break
- if opc != 0 and 1 and 2 and 3 and 4:
-    os.system("cls")
-    print("OPCÃO INVALIDA\n.\n.\n.\n.!")
-    os.system("pause")
-          
-   
-       
+ 
+  
